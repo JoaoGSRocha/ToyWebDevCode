@@ -1,0 +1,19 @@
+body{
+	font-family: Verdana;
+}
+#HeaderTXTLeft{
+	font-size: 9px;
+	text-align: right;
+}
+#HeaderTXTRight{
+	font-size: 13px;
+	text-align: center;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+#ast {
+	color: #7af;
+}

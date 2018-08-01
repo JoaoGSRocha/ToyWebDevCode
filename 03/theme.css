@@ -6,6 +6,11 @@ body {
 	color: #fff;
 }
 
+td {
+		font-size: 30px;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
 h1{
 	font-family: 'Roboto', sans-serif;
 	font-size: 800%;
