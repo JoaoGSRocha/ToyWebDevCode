@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
 				"align",
 				"align-items\tproperty"
 			],
@@ -72,12 +84,56 @@
 	"buffers":
 	[
 		{
-			"contents": "[Add] 2nd, 3rd class folders and file + Testing Full Web. Dev.\n\n- Adds folder for 1st, 2nd and 3rd class and for the testing groudnds,\n\tfull website development;\n- Adds full website testing grounds development website, which uses\n\tid, css, span for % size and single imgs broken in several parts;\n- Adds Jasmine test.html(1st class folder) example where it uses Jasmine\n\ttesting framework hosted in cloud servers;\n\nKeywords: Add, Sorting, Folders, Full Website, \nImportance: High",
+			"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/04/04.html",
 			"settings":
 			{
-				"buffer_size": 479,
+				"buffer_size": 756,
+				"encoding": "UTF-8",
 				"line_ending": "Windows",
-				"name": "[Add] 2nd, 3rd class folders and file + Testing Fu"
+				"name": "<html>"
+			}
+		},
+		{
+			"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/05/05.html",
+			"settings":
+			{
+				"buffer_size": 1144,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/06/06.html",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/07/07.html",
+			"settings":
+			{
+				"buffer_size": 517,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "[Add] Classes 10, 11, 12\n\n- Adds several encapsulated methods(from class 10) ready for unit testing;\n\nKeywords: Add, Class 10,  Class 11, Class 12\nImportance: Medium \n\n",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Windows",
+				"name": "[Add] Classes 10, 11, 12"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -153,7 +209,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -167,6 +223,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"radio",
+			"satisfaction",
 			"> ",
 			"CheckNodesRecursive",
 			"nodeindicesar",
@@ -174,12 +232,14 @@
 			"ul",
 			"scripts"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"checkbox",
+			"other"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -190,35 +250,176 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/04/04.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 479,
+						"buffer_size": 756,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								479,
-								0
+								0,
+								756
 							]
 						],
 						"settings":
 						{
-							"auto_name": "[Add] 2nd, 3rd class folders and file + Testing Fu",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "<html>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/05/05.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/06/06.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/IOT_T_JOAOROCHA(GUI)/ToyWebDevCode/07/07.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								168
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[Add] Classes 10, 11, 12",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -263,7 +464,7 @@
 	"project": "htmlLessons.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":

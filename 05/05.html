@@ -1,0 +1,33 @@
+<html>
+<body>
+	<h1>EFAV Evaluation</h1>
+	<form action="http://192.168.2.7/iot/geral.php" method="POST">
+		Tipo de Acção: 
+		<select name="ActionType">
+			<option>Vida Activa</option>	
+			<option>EFA</option>	
+			<option>APZ</option>	
+		</select>
+		<br><br>
+
+		Grau de Satisfação
+		<br>	
+		<input type="radio" name="satisfaction" value="1">1<br>
+  		<input type="radio" name="satisfaction" value="2">2<br>
+  		<input type="radio" name="satisfaction" value="3">3<br>
+  		<input type="radio" name="satisfaction" value="4">4<br>
+  		<input type="radio" name="satisfaction" value="5">5<br>
+  		<br>
+
+  		Outras àreas de Interesse
+		<br>	
+		<input type="checkbox" name="other_cozinha" value="cozinha">cozinha<br>
+  		<input type="checkbox" name="other_eletrecidade" value="eletrecidade">eletrecidade<br>
+  		<input type="checkbox" name="other_logistica" value="logistica">logistica<br>
+  		<input type="checkbox" name="other_computadores" value="computadores">computadores<br>
+  		<input type="checkbox" name="other_design" value="design">design<br>
+  		<br>
+  		<input type="submit" name="button" value="button" id="enviar">
+	</form>
+</body>
+</html>

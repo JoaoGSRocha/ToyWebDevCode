@@ -1,21 +1,27 @@
 <html>
 <body>
 	<h1>Dados Pessoais</h1>
-	<form>
+	<form action="http://192.168.2.7/iot/geral.php" method="POST">
 		Nome:	<input type="text" name="nom">
+		<br><br>
 		Morada: <input type="text" name="mor">
-		Contactos: <input type="number" name="cont" maxlength="9">
+		<br><br>
+		Contactos: <input type="text" name="cont" maxlength="9">
+		<br><br>
 		Dados: 
-		<select name="dados">
+		<select name="district">
 			<option>Aveiro</option>	
 			<option>Coimbra</option>	
 			<option>Porto</option>	
 			<option>Lisboa</option>	
-		</select>>
-		Gênero:	
+		</select>
+		<br><br>
+		Gênero:<br>	
 		<input type="radio" name="gender" value="male"> Masculino<br>
   		<input type="radio" name="gender" value="female"> Femenino<br>
   		<input type="radio" name="gender" value="other"> Other
+  		<br><br>
+  		<input type="submit" name="button" value="button" id="enviar">
 	</form>
 </body>
 </html>
