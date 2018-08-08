@@ -1,0 +1,13 @@
+body { 
+		font-family: Verdana, tahoma, arial; 
+		font-size: 12px;
+		background-color: #ebebeb;
+		color: #C6C;	
+	}
+h1	{ 	font-size: 30px; color: #090;	}
+p 	{ 	line-height: 60px; color: #339;	}
+img {
+		width: 550px; max-width: 300px; 
+		margin-left: 50px; border: solid medium;
+		border-radius: 45px;  
+	}
